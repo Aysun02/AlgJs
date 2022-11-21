@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css/style.css">
+<script src="./script.js" defer></script>
+</head>
+<body>
+  <div id="myDIV" class="header">
+    <div class="color"></div>
+    <h2 class="text" style="margin:5px; text-align: center; color: black;" >To-Do List</h2>
+  <input type="text" id="myInput" placeholder="Add Something">
+  <span  onclick="newElement()" class="addBtn" id="Add">Add</span>
+</div>
+<button class="sortBtn"  onclick="sortList()"><img style="width: 30px;" src="./style.css/assets/sorting-order.png" alt=""></button>
+<ul  id="id01">
+  <li>Почистить зубы</li>
+  <li>Купить зубную пасту</li>
+  <li class="checked">Умыться</li>
+  <li>Выпить кофе</li>
+  <li>Принять душ</li>
+</ul>
+</body>
+</html>
